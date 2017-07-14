@@ -1,0 +1,16 @@
+{
+  "name": "noderw",
+  "version": "1.0.0",
+  "description": "node write json object to text file, read from text file and insert to mysql  ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm start"
+  },
+  "author": "jieb",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.15.3",
+    "jsdom": "^11.1.0",
+    "mysql": "^2.13.0"
+  }
+}
