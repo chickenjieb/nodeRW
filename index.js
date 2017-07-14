@@ -35,7 +35,6 @@ var testData = [
 
 app.get('/', function(req, res) {
   res.sendFile(__dirname + '/index.html');
-  // res.selectData();
 });
 
 app.get('/hi', function(req, res) {
