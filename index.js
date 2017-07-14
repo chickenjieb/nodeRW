@@ -39,7 +39,7 @@ app.get('/', function(req, res) {
 
 app.get('/hi', function(req, res) {
   res.sendFile(__dirname + '/index.html');
-  var name = req.param('name');
+  var name = req.param.name;
   res.send("My id :"+ name);
   
 });
